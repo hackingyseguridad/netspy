@@ -1,6 +1,6 @@
 # netspy
 
-# 1.- Descubre elementos de red 2.- captura y en pantalla el trafico.
+# 1.- Descubre elementos de red 2.- Captura y muestra en pantalla el trafico.
 
 # Instalacion:
 
