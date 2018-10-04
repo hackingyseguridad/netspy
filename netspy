@@ -13,7 +13,7 @@ if [ -z "$1" ]; then
         echo
         echo "Descubre ficheros en  url de sitio web por 200 OK.. "
         echo "Uso.: sh netspy.sh <nterface>"
-        echo "Tiempo estimado 1 hora .."
+        echo 
         exit 0
 fi
 echo
