@@ -8,6 +8,7 @@ cat << "INFO"
                     | |     __/ |
                     |_|    |___/  v1.0
              www.hackingyseguridad.com
+             
 INFO
 if [ -z "$1" ]; then
         echo
