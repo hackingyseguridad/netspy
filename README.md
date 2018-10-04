@@ -20,6 +20,10 @@ chmod 777 netspy
 
 sh netspy
 
+sh proxynetspy
+
+netdiscover
+
 # Bettercap v2.9
 
 Escanear toda la Red:
