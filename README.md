@@ -8,5 +8,14 @@ apt-get install bettercap
 
 apt-get install netdiscover
 
-git clone https:
+git clone https://github.com/hackingyseguridad/netspy
 
+cd netspy
+
+chmod 777 netspy
+
+# Uso.:
+
+sh netspy
+
+www.hackingyseguridad.com
