@@ -12,8 +12,9 @@ cat << "INFO"
              
 INFO
 if [ -z "$1" ]; then
-        echo
+        echo 
         echo "Captura y muestra en pantalla el trafico."
+        echo "Requiere Bettercap release >2.9"
         echo "Uso.: sh netspy.sh <nterface>"
         echo 
         exit 0
