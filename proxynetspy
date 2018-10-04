@@ -14,7 +14,7 @@ cat << "INFO"
 INFO
 if [ -z "$1" ]; then
         echo 
-        echo "Captura credenciales con cifrados debiles  y muestra en pantalla el trafico web."
+        echo "Captura credenciales con cifrados debiles, muestra el trafico web."
         echo "Requiere Bettercap release >2.9"
         echo "Uso.: sh proxynetspy.sh <interface>"
         echo 
