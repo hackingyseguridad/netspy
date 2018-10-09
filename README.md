@@ -24,6 +24,8 @@ sh proxynetspy
 
 netdiscover
 
+IMPORTANTE: Para salir del modo de descubrimiento 'net probe on' y empezar a esnifar teclea 'exit'.
+
 # Bettercap v2.9
 
 Escanear toda la Red:
