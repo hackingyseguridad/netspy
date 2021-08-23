@@ -15,6 +15,7 @@ if [ -z "$1" ]; then
         echo 
         echo "Captura y muestra en pantalla el trafico."
         echo "Requiere Bettercap release >2.9"
+        echo "Seleccionar victima con: set arp.spoof.targets 192.168.1.x"
         echo "Uso.: sh netspy.sh <interface>"
         echo 
         exit 0
