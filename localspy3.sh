@@ -15,4 +15,5 @@ echo
 # tcpdump -i eth0 -s0 -vvv not port 22 and port 636 -w /tmp/captura.pcap |stdbuf -oL tcpick -C -v -a -h -yP -r 
 # tcpdump -s 0 -A -n -l | egrep -i "POST /|pwd=|passwd=|password=|Host:"
 # tcpdump port http or port ftp or port smtp or port imap or port pop3 or port telnet -l -A | egrep -i -B5 'pass=|pwd=|log=|login=|user=|username=|pw=|passw=|passwd=|password=|pass:|user:|username:|password:|login:|pass |user '
+# tcpdump -n -vvv | awk '{print }' | grep -oE '[0-9]{1,}.[0-9]{1,}.[0-9]{1,}.[0-9]{1,}' | sort | uniq -c | sort -n
 tcpdump -i eth0 -s0 -vvv not port 22
