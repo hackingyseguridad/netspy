@@ -1,5 +1,5 @@
 # Interceptacion Ethernet
-Escemarios:
+Escenarios:
 <img style="float:left" alt="Escenarios interceptacion" src="https://github.com/hackingyseguridad/netspy/blob/master/MiTM.png">
 #
 <img style="float:left" alt="netspy logo" src="https://github.com/hackingyseguridad/netspy/blob/master/netspy.png">
