@@ -56,7 +56,8 @@ Ver trafico web por proxy y extrae claves de cifrados debiles:
 
 net.probe on; set arp.spoof.targets; arp.spoof on; set net.sniff.verbose false; net.sniff on; http.proxy on;  true; set http.proxy.port 80; set https.proxy.port 443; http.proxy on; https.proxy on; set http.proxy.sslstrip
 
-Versiones antiguas Bettercap:
+
+Versiones antiguas Bettercap: 1.6.1 y 1.6.2 en Python
 
 https://github.com/hackingyseguridad/mitm
 
