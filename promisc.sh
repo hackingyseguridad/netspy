@@ -5,3 +5,4 @@
 # deshabilitar modo promiscuo: ifconfig eth0 -promisc 
 # Cambiar MAC: ifconfig eth0 hw ether aa:bb:cc:11:22:33
 ifconfig $1 promisc
+ip link set $1 promisc on
