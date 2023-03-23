@@ -1,0 +1,2 @@
+tshark -f "not port 22"
+tshark -- not port 22
