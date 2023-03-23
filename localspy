@@ -1,2 +1,7 @@
-tshark -f "not port 22"
+#!/bin/bash
+echo "Interceptacion sin 22/tcp ssh"
+#tshark -f "not port 22"
+#tshark -- not port 22
+
 tshark -- not port 22
+
