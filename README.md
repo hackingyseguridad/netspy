@@ -6,7 +6,7 @@ Estenarios:
 
 1º.- Interceptación entre 2 puntos; 
 
-Disponer de acceso a uno de los 2 puntos, e instalar en alguno de los extremos: Wireshark, dsniff, Smartsnif nifsoft, Bettercap, Ethercap, Extension navegador, netspym etc..
+Disponer de acceso a uno de los 2 puntos, e instalar en alguno de los extremos: Wireshark, dsniff, Smartsnif nifsoft, Bettercap, Ethercap, Extension navegador, netspy, tcpdump etc..
 
 2º.- red LAN con HUB o switch "sin inteligencia"
 
