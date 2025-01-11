@@ -1,6 +1,6 @@
 # Interceptacion Ethernet
 
-MiTM interceptación de trafico en claro:
+MiTM interceptación de trafico LAN en claro:
 
 Estenarios:
 
