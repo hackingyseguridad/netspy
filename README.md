@@ -27,7 +27,9 @@ En un PC conectado instala un Proxy trasparente. Usa ARP Spoofing, suplantación
 4º.- Instalar  en: pasarelas, FW , routers, swithes, etc.. equipos en medio de las redes para interceptación: HUBS, switches port mirronig, proxyes, TAB .. 
 
 <img style="float:left" alt="Escenarios interceptacion" src="https://github.com/hackingyseguridad/netspy/blob/master/MiTM.png">
-#
+
+#  https://www.bettercap.org/ Beettercap combina ARP Spoofing y proxy trasparte
+
 <img style="float:left" alt="netspy logo" src="https://github.com/hackingyseguridad/netspy/blob/master/netspy.png">
 
 # netspy
