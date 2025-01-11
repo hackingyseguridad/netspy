@@ -10,7 +10,7 @@ Disponer de acceso a uno de los 2 puntos, e instalar en altuno de los extremos: 
 
 2º.- Red LAN con HUB o switch sin inteligencia:
 
-Instalar un PC conectado al HUB, con la ** tarjeta *** de red en modo promiscuo, que escuche todo el trafico de la red. Tener instalado Wireshark, netspy,etc
+Instalar un PC conectado al HUB, con la *** tarjeta *** de red en modo promiscuo, que escuche todo el trafico de la red. Tener instalado Wireshark, netspy,etc
 Modificar MAC Adrees de un PC conectado a la red, con la MAC Broadcast FF:FF:FF:FF:FF:FF:FF:FF que escurche todo el trafico de la red
 
 3º.- En una red LAN con Switch inteligente:
