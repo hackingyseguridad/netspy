@@ -85,31 +85,36 @@ net.probe on; set arp.spoof.targets; arp.spoof on; set net.sniff.verbose false; 
 
 Versiones antiguas Bettercap: 1.6.1 y 1.6.2 en Python
 
-El ARP Spoofing, o envenenamiento ARP, es un tipo de ataque cibernético que puede comprometer seriamente la seguridad de una red local. Consiste en la manipulación de la tabla ARP de un dispositivo para redirigir el tráfico de red hacia el atacante, permitiéndole interceptar y modificar la información que fluye por la red.
+El ARP Spoofing, o envenenamiento ARP, es un tipo de ataque que puede comprometer seriamente la seguridad de una red local. Consiste en la manipulación de la MAC Addres y por tanto tabla ARP de un dispositivo para redirigir el tráfico de red hacia el atacante, permitiéndole interceptar y modificar la información que fluye por la red.
 ¿Cómo detectar un ataque de ARP Spoofing?
-Dado que este tipo de ataque suele ser silencioso y difícil de detectar a simple vista, es fundamental contar con herramientas y técnicas específicas. Aquí te presentamos algunas:
+Este tipo de ataque suele ser silencioso y difícil de detectar a simple vista, es fundamental contar con herramientas y técnicas específicas. P.ej:
+
 Herramientas de Detección:
-•	Sniffers de paquetes: Herramientas como Wireshark te permiten analizar el tráfico de red en tiempo real. Al examinar los paquetes ARP, puedes identificar patrones inusuales o respuestas ARP falsas.
+
 •	Sistemas de detección de intrusiones (IDS): Un IDS bien configurado puede detectar anomalías en el tráfico de red, como un aumento repentino en el número de solicitudes ARP o respuestas ARP falsas.
+
+•	Sniffers de paquetes: Herramientas como Wireshark te permiten analizar el tráfico de red en tiempo real. Al examinar los paquetes ARP, puedes identificar patrones inusuales o respuestas ARP falsas.
+
 •	Herramientas especializadas: Existen herramientas diseñadas específicamente para detectar ARP Spoofing, como ARPwatch, que monitorea la tabla ARP y alerta sobre cambios inesperados.
+
 Técnicas de Detección:
+•	Problemas de conectividad: Dificultad para acceder a ciertos sitios web o servicios de red.
 •	Monitoreo de la tabla ARP: Revisa regularmente la tabla ARP de los dispositivos de tu red para identificar entradas desconocidas o duplicadas.
 •	Análisis de registros: Examina los registros del sistema y de las herramientas de seguridad para buscar cualquier indicio de actividad sospechosa, como intentos de acceso no autorizados o cambios en la configuración de la red.
 •	Pruebas de penetración: Realiza pruebas de penetración periódicas para identificar vulnerabilidades en tu red y evaluar la efectividad de tus medidas de seguridad.
 •	Uso de protocolos de seguridad: Implementa protocolos de seguridad como DHCP Snooping, IP Source Guard y Dynamic ARP Inspection (DAI), que pueden ayudar a prevenir y detectar ataques de ARP Spoofing.
 Síntomas de un Ataque de ARP Spoofing:
 Aunque no siempre son evidentes, algunos síntomas pueden indicar un ataque de ARP Spoofing:
-•	Problemas de conectividad: Dificultad para acceder a ciertos sitios web o servicios de red.
 •	Pérdida de paquetes: Interrupciones en la comunicación o lentitud en la red.
 •	Actividad sospechosa en la red: Detección de tráfico no autorizado o intentos de acceso a recursos sensibles.
 •	Cambios inesperados en la configuración de red: Modificaciones no autorizadas en la configuración de los dispositivos de red.
+
 Prevención del ARP Spoofing:
 •	Configuraciones estáticas: Establece entradas ARP estáticas para dispositivos críticos, como routers y servidores.
 •	Segmentación de redes: Divide tu red en segmentos más pequeños para limitar el impacto de un posible ataque.
 •	Actualizaciones de software: Mantén todos tus dispositivos actualizados con los últimos parches de seguridad.
 •	Educación de los usuarios: Sensibiliza a los usuarios sobre los riesgos de los ataques cibernéticos y cómo protegerse.
-•	ARP firmado con certificado y clave PKI
-
+•	implementar nuevo ARP firmado con certificado y clave PKI
 
 https://github.com/hackingyseguridad/mitm
 
