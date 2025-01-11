@@ -24,6 +24,8 @@ En un PC conectado a la red instalar un Proxy, para hacer pasar, encaminar por e
 
 En un PC conectado instala un Proxy trasparente. Usa ARP Spoofing, suplantación de MAC, para encaminar y poder ver e interceptar  el trafico de otros dispositivos!
 
+4º.- Instalar en la pasales, FW , routers, swithes, etc.. equipos en medio de las redes para interceptación: HUBS, switches port mirronig, proxyes, .. 
+
 <img style="float:left" alt="Escenarios interceptacion" src="https://github.com/hackingyseguridad/netspy/blob/master/MiTM.png">
 #
 <img style="float:left" alt="netspy logo" src="https://github.com/hackingyseguridad/netspy/blob/master/netspy.png">
