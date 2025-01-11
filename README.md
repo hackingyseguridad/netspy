@@ -28,7 +28,7 @@ En un PC conectado instala un Proxy trasparente. Usa ARP Spoofing, suplantación
 
 <img style="float:left" alt="Escenarios interceptacion" src="https://github.com/hackingyseguridad/netspy/blob/master/MiTM.png">
 
-#  https://www.bettercap.org/ Beettercap combina ARP Spoofing y proxy trasparte
+** https://www.bettercap.org/ Beettercap combina ARP Spoofing y proxy trasparte
 
 <img style="float:left" alt="netspy logo" src="https://github.com/hackingyseguridad/netspy/blob/master/netspy.png">
 
