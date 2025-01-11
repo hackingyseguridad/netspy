@@ -18,7 +18,7 @@ Configurar port mirroning en el switch para que una copia de todo el trafico se 
 
 En un PC conectado a la red instalar un Proxy, para hacer pasar, encaminar por el e interceptar el trafico!
 
-En un PC conectado instala un Proxy trasparente. Usa ARP Spoofing, suplantación de MAC, para encaminar y poder ver e interceptar  el trafico de otros dispositivos !
+En un PC conectado instala un Proxy trasparente. Usa ARP Spoofing, suplantación de MAC, para encaminar y poder ver e interceptar  el trafico de otros dispositivos!
 
 <img style="float:left" alt="Escenarios interceptacion" src="https://github.com/hackingyseguridad/netspy/blob/master/MiTM.png">
 #
@@ -78,6 +78,11 @@ net.probe on; set arp.spoof.targets; arp.spoof on; set net.sniff.verbose false; 
 
 
 Versiones antiguas Bettercap: 1.6.1 y 1.6.2 en Python
+
+
+
+
+
 
 https://github.com/hackingyseguridad/mitm
 
