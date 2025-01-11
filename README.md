@@ -4,20 +4,21 @@ MiTM interceptación de trafico en claro:
 
 Estenarios:
 
-Entre 2 puntos:
-Disponer de acceso a uno de los 2 puntos, e instalar: Wireshark, nifsoft, Bettercap, Ethercap, Extension navegador, etc..
+1º.- Interceptación entre 2 puntos:
 
-Red LAN con HUB o switch sin inteligencia:
+Disponer de acceso a uno de los 2 puntos, e instalar en altuno de los extremos: Wireshark, nifsoft, Bettercap, Ethercap, Extension navegador, netspym etc..
+
+2º.- Red LAN con HUB o switch sin inteligencia:
 
 Modificar MAC Adrees de un PC conectado a la red, con la MAC Broadcast FF:FF:FF:FF:FF:FF:FF:FF que escurche todo el trafico de la red
 
-En una red LAN con Switch inteligente:
+3º.- En una red LAN con Switch inteligente:
 
-Configurar un port mirrir en el switch para que una copia de todo el trafico se encamine a una sola ethernet del switch, donde hay un PC en modo promiscuo con Wirehark capturando 
+Configurar port mirroning en el switch para que una copia de todo el trafico se encamine a una sola ethernet del switch, donde hay un PC en modo promiscuo con Wirehark, netspy, etc.. capturando 
 
-En un PC conectado instlar un Proxy, para hacer pasar, encaminar por el el  trafico!
+En un PC conectado a la red instalar un Proxy, para hacer pasar, encaminar por el e interceptar el trafico!
 
-En un PC conectado instala un Proxy trasparente. Usa MAC Spoofing, suplantación de MAC para ver el trafico de otros!
+En un PC conectado instala un Proxy trasparente. Usa ARP Spoofing, suplantación de MAC, para encaminar y poder ver e interceptar  el trafico de otros dispositivos !
 
 <img style="float:left" alt="Escenarios interceptacion" src="https://github.com/hackingyseguridad/netspy/blob/master/MiTM.png">
 #
