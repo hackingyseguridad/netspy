@@ -16,7 +16,7 @@ Instalar un PC conectado al HUB, con la  tarjeta  de red en modo promiscuo, que 
 
 Modificar MAC Adrees de un PC conectado a la red, con la MAC Broadcast FF:FF:FF:FF:FF:FF:FF:FF que escurche todo el trafico de la red
 
-3º.- En una red LAN con Switch inteligente :
+3º.- En una red LAN con conmutadores Switch inteligente configurable :
 
 Configurar port mirroning en el switch para que una copia de todo el trafico se encamine a una sola ethernet del switch, donde hay un PC en modo promiscuo con Wirehark, netspy, etc.. capturando 
 
