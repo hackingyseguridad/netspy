@@ -16,7 +16,7 @@ Instalar un PC conectado al HUB, con la  tarjeta  de red en modo promiscuo, que 
 
 Modificar MAC Adrees de un PC conectado a la red, con la MAC Broadcast FF:FF:FF:FF:FF:FF:FF:FF que escurche todo el trafico de la red
 
-3º.- En una red LAN con Switch inteligente:
+3º.- En una red LAN con Switch inteligente :
 
 Configurar port mirroning en el switch para que una copia de todo el trafico se encamine a una sola ethernet del switch, donde hay un PC en modo promiscuo con Wirehark, netspy, etc.. capturando 
 
@@ -110,7 +110,7 @@ Aunque no siempre son evidentes, algunos síntomas pueden indicar un ataque de A
 •	Cambios inesperados en la configuración de red: Modificaciones no autorizadas en la configuración de los dispositivos de red.
 
 Prevención del ARP Spoofing:
-•	Configuraciones estáticas: Establece entradas ARP estáticas para dispositivos críticos, como routers y servidores.
+•	Configuraciones estáticas: Establece entradas ARP estáticas para dispositivos críticos, como routers y servidores.  habilitar "client isolation",
 •	Segmentación de redes: Divide tu red en segmentos más pequeños para limitar el impacto de un posible ataque.
 •	Actualizaciones de software: Mantén todos tus dispositivos actualizados con los últimos parches de seguridad.
 •	Educación de los usuarios: Sensibiliza a los usuarios sobre los riesgos de los ataques cibernéticos y cómo protegerse.
