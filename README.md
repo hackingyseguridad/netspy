@@ -6,7 +6,7 @@
 
 Disponer de  acceso y privilegios suficientes  en uno de los 2 dispositivos A ---//...B , e instalar, para interceptar el trafico de algun interfaces, en alguno de los extremos: Wireshark, dsniff, Smartsnif nifsoft, Bettercap, Ethercap, Extension navegador, netspy, tcpdump etc..
 
-## 2º.- red LAN con HUB o switch "sin inteligencia"
+## 2º.- red LAN con HUB o switch basico "sin inteligencia"
 
 Instalar un HUB en el medio de una red, por su modo de funcionamiento rebotan todos los pquete en todas las MAC y paquete Ethernet, par interceptación.
 
