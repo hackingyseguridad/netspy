@@ -18,7 +18,7 @@ Modificar MAC Adrees de un PC conectado a la red, con la MAC Broadcast FF:FF:FF:
 
 Configurar port mirroning en el switch para que una copia de todo el trafico se encamine a una sola ethernet del switch, donde hay un PC en modo promiscuo con Wirehark, netspy, etc.. capturando 
 
-En un PC conectado a la red instalar un Proxy, para hacer pasar, encaminar por el e interceptar el trafico!
+En un PC conectado a la red instalar un Proxy, para hacer pasar, encaminar por configuracion o por ARP Spoofing, el trafico por el e interceptar el trafico!
 
 En un PC conectado instala un Proxy trasparente. Usa ARP Spoofing, suplantación de MAC, para encaminar y poder ver e interceptar  el trafico de otros dispositivos!
 
