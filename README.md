@@ -84,6 +84,8 @@ net.probe on; set arp.spoof.targets; arp.spoof on; set net.sniff.verbose false; 
 
 Versiones antiguas Bettercap: 1.6.1 y 1.6.2 en Python
 
+para hacer interceptación; salvo que exista posibilidad de acceder a un equipo con privilegios suficientes para instalar software o ser utilizado para MiTM, o que tengamos posbilidad de instlar en la red ficisamente algun dispositivo, siempre como elemento comun es necesario hacer ARP Spoofing y/o proxy trasparente: 
+
 El ARP Spoofing, o envenenamiento ARP, es un tipo de ataque que puede comprometer seriamente la seguridad de una red local. Consiste en la manipulación de la MAC Addres y por tanto tabla ARP de un dispositivo para redirigir el tráfico de red hacia el atacante, permitiéndole interceptar y modificar la información que fluye por la red.
 ¿Cómo detectar un ataque de ARP Spoofing?
 Este tipo de ataque suele ser silencioso y difícil de detectar a simple vista, es fundamental contar con herramientas y técnicas específicas. P.ej:
