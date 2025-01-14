@@ -4,15 +4,14 @@
 
 ## 1º.- Interceptación entre 2 dispositivos; 
 
-Disponer de  acceso y privilegios suficientes  en uno de los 2 dispositivos A ---//...B , e instalar, para interceptar el trafico de algun interfaces, en alguno de los extremos: Wireshark, dsniff, Smartsnif nifsoft, Bettercap, Ethercap, Extension navegador, netspy, tcpdump, malware, etc..
+•	Disponer de acceso y privilegios suficientes en uno de los 2 dispositivos A --//...B , e instalar, para interceptar el tráfico de algún interfaces, en alguno de los extremos: Wireshark, dsniff, Smartsnif nifsoft, Bettercap, Ethercap, Extension navegador, netspy, tcpdump, malware, etc..
 
 ## 2º.- red LAN con HUB o switch basico "sin inteligencia"
 
-Instalar un HUB en el medio de una red, por su modo de funcionamiento rebotan todos los pquete en todas las MAC y paquete Ethernet, par interceptación.
-
-Instalar un PC conectado al HUB, con la  tarjeta  de red en modo promiscuo, que escuche todo el trafico de la red. Tener instalado Wireshark, netspy,etc
-
-Modificar MAC Adrees de un PC conectado a la red, con la MAC Broadcast FF:FF:FF:FF:FF:FF:FF:FF que escurche todo el trafico de la red
+•	Instalar un HUB en el medio de una red, por su modo de funcionamiento rebotan todos los pquete en todas las MAC y paquete Ethernet, par interceptación.
+•	Instalar un PC conectado al HUB, con la tarjeta de red en modo promiscuo, que escuche todo el tráfico de la red. Tener instalado Wireshark, netspy,etc
+•	Modificar MAC adreess de un PC conectado a la red, con la MAC Broadcast FF:FF:FF:FF:FF:FF:FF:FF que escuche todo el tráfico de la red. 
+•	Modificar MAC address de un PC y suplantar la de otro dispositivo objetivo, para escuchar el trafico 
 
 ## 3º.- En una red LAN con conmutadores Switch inteligente configurable :
 
