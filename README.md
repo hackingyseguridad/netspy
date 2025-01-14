@@ -9,19 +9,20 @@
 ## 2º.- red LAN con HUB o switch basico "sin inteligencia"
 
 •	Instalar un HUB en el medio de una red, por su modo de funcionamiento rebotan todos los pquete en todas las MAC y paquete Ethernet, par interceptación.
-•	Instalar un PC conectado al HUB, con la tarjeta de red en modo promiscuo, que escuche todo el tráfico de la red. Tener instalado Wireshark, netspy,etc
+
+•	Instalar un PC conectado al HUB, con la tarjeta de red en modo promiscuo, que escuche todo el tráfico de la red. Tener instalado Wireshark, netspy,etc.
+
 •	Modificar MAC adreess de un PC conectado a la red, con la MAC Broadcast FF:FF:FF:FF:FF:FF:FF:FF que escuche todo el tráfico de la red. 
+
 •	Modificar MAC address de un PC y suplantar la de otro dispositivo objetivo, para escuchar el trafico 
 
 ## 3º.- En una red LAN con conmutadores Switch inteligente configurable :
 
-Configurar port mirroning en el switch para que una copia de todo el trafico se encamine a una sola ethernet del switch, donde hay un PC en modo promiscuo con Wirehark, netspy, etc.. capturando 
+•	Configurar port mirroning en el switch para que una copia de todo el trafico se encamine a una sola ethernet del switch, donde hay un PC en modo promiscuo con Wirehark, netspy, etc.. capturando
 
-En un PC conectado a la red instalar un Proxy, para hacer pasar, encaminar por configuracion o por ARP Spoofing, el trafico por el e interceptar el trafico!
+•	En un PC conectado a la red instalar un Proxy, para hacer pasar, encaminar por configuracion o por ARP Spoofing, ¡el trafico por el e interceptar el trafico!
 
-En un PC conectado instala un Proxy trasparente. Usa ARP Spoofing, suplantación de MAC, para encaminar y poder ver e interceptar  el trafico de otros dispositivos!
-
-## 4º.- Instalar  en: pasarelas, FW , routers, swithes, etc.. equipos en medio de las redes para interceptación: HUBS, switches port mirronig, proxyes, TAB .. 
+•	En un PC conectado instala un Proxy trasparente. Usa ARP Spoofing, suplantación de MAC, ¡para encaminar y poder ver e interceptar el trafico de otros dispositivos!
 
 <img style="float:left" alt="Escenarios interceptacion" src="https://github.com/hackingyseguridad/netspy/blob/master/MiTM.png">
 
