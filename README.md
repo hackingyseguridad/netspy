@@ -24,6 +24,8 @@
 
 •	En un PC conectado instala un Proxy trasparente. Usa ARP Spoofing, suplantación de MAC, ¡para encaminar y poder ver e interceptar el trafico de otros dispositivos!
 
+## 4º.- 6.	Posibilidad de añadir e instalar dispositivos HW:  pasarelas, FW , routers, swithes, etc.. equipos en medio de las redes para interceptación: HUBS, switches port mirronig, proxyes, TAB ..,,etc..
+
 <img style="float:left" alt="Escenarios interceptacion" src="https://github.com/hackingyseguridad/netspy/blob/master/MiTM.png">
 
 ### https://www.bettercap.org/ Beettercap combina ARP Spoofing y proxy trasparte
