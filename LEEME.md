@@ -11,10 +11,6 @@
 - [Tabla resumen: síntomas de un posible ataque](#tabla-resumen-síntomas-de-un-posible-ataque)
 - [Tabla resumen: herramientas de detección](#tabla-resumen-herramientas-de-detección)
 - [Tabla resumen: medidas de prevención](#tabla-resumen-medidas-de-prevención)
-- [Buenas prácticas para administradores de red](#buenas-prácticas-para-administradores-de-red)
-- [Marco legal](#marco-legal)
-- [Licencia](#licencia)
-- [Autor y enlaces](#autor-y-enlaces)
 
 ---
 
