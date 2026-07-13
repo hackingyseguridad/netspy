@@ -1,10 +1,10 @@
-# netspy — Notas de seguridad de red: detección y defensa frente a interceptación de tráfico (MITM)
+### netspy — Notas de seguridad de red: detección y defensa frente a interceptación de tráfico (MITM)
 
 > Este documento se centra deliberadamente en la **detección, defensa y marco legal** frente a ataques de interceptación de tráfico en redes LAN (Man-in-the-Middle / ARP Spoofing). No incluye comandos ni procedimientos de ataque. Interceptar el tráfico de dispositivos que no son tuyos, o de una red sobre la que no tienes autorización expresa, es ilegal en la gran mayoría de jurisdicciones (intercepción de comunicaciones, acceso no autorizado a sistemas).
 
 ---
 
-## Tabla de contenidos
+### Tabla de contenidos
 
 - [¿Qué es un ataque MITM / ARP Spoofing?](#qué-es-un-ataque-mitm--arp-spoofing)
 - [Por qué es posible en una LAN no segmentada](#por-qué-es-posible-en-una-lan-no-segmentada)
@@ -18,7 +18,7 @@
 
 ---
 
-## ¿Qué es un ataque MITM / ARP Spoofing?
+### ¿Qué es un ataque MITM / ARP Spoofing?
 
 Un ataque **Man-in-the-Middle (MITM)** consiste en interponerse entre dos partes que se comunican, sin que ninguna de ellas lo sepa, para leer, modificar o redirigir su tráfico. En redes LAN, la técnica más habitual para lograrlo es el **ARP Spoofing** (o envenenamiento ARP): consiste en falsificar las respuestas del protocolo ARP para que otros dispositivos de la red asocien la dirección IP de su puerta de enlace (o de otro equipo) con la dirección MAC del atacante, de forma que el tráfico pase primero por él.
 
@@ -30,7 +30,7 @@ Es un ataque:
 
 ---
 
-## Por qué es posible en una LAN no segmentada
+### Por qué es posible en una LAN no segmentada
 
 | Factor de riesgo | Por qué facilita el ataque |
 |---|---|
@@ -42,7 +42,7 @@ Es un ataque:
 
 ---
 
-## Tabla resumen: síntomas de un posible ataque
+### Tabla resumen: síntomas de un posible ataque
 
 | Síntoma | Qué puede indicar |
 |---|---|
@@ -55,7 +55,7 @@ Es un ataque:
 
 ---
 
-## Tabla resumen: herramientas de detección
+### Tabla resumen: herramientas de detección
 
 | Herramienta | Tipo | Qué aporta |
 |---|---|---|
@@ -67,7 +67,7 @@ Es un ataque:
 
 ---
 
-## Tabla resumen: medidas de prevención
+### Tabla resumen: medidas de prevención
 
 | Medida | Efecto |
 |---|---|
@@ -83,4 +83,8 @@ Es un ataque:
 
 ---
 
+
+#
+http://www.hackingyseguridad.com/
+#
 
