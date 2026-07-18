@@ -1,7 +1,5 @@
 ### netspy — Notas de seguridad de red: detección y defensa frente a interceptación de tráfico (MITM)
 
-> Este documento se centra deliberadamente en la **detección, defensa y marco legal** frente a ataques de interceptación de tráfico en redes LAN (Man-in-the-Middle / ARP Spoofing). No incluye comandos ni procedimientos de ataque. Interceptar el tráfico de dispositivos que no son tuyos, o de una red sobre la que no tienes autorización expresa, es ilegal en la gran mayoría de jurisdicciones (intercepción de comunicaciones, acceso no autorizado a sistemas).
-
 ---
 
 ### Tabla de contenidos
