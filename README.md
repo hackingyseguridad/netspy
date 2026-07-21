@@ -120,6 +120,8 @@ Cómo detectar un ataque de ARP Spoofing!
 •	Segmentación de redes: Divide tu red en segmentos más pequeños para limitar el impacto de un posible ataque. • Actualizaciones de software: Mantén todos tus dispositivos actualizados con los últimos parches de seguridad.  Implementar medidas de seguridad como el uso de VPNs, conexiones HTTPS, y mantener tu infraestructura de red actualizada también puede ayudar a prevenir estos ataques
 
 
+https://github.com/hackingyseguridad/netspy/blob/master/LEEME.md
+
 #
 http://www.hackingyseguridad.com/
 #
