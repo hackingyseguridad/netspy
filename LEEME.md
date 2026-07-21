@@ -1,4 +1,4 @@
-### netspy — Notas de seguridad de red: detección y defensa frente a interceptación de tráfico (MITM)
+### netspy : detección y defensa frente a interceptación de tráfico (MITM)
 
 ---
 
