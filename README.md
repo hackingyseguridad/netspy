@@ -1,14 +1,14 @@
-# Interceptacion Ethernet (MiTM)  de trafico LAN en claro:
+### Interceptacion Ethernet (MiTM)  de trafico LAN en claro:
 
 https://github.com/hackingyseguridad/netspy/blob/master/LEEME.md
 
 ### Estenarios:
 
-## 1º.- Interceptación entre 2 dispositivos; 
+### 1º.- Interceptación entre 2 dispositivos; 
 
 •	Disponer de acceso y privilegios suficientes en uno de los 2 dispositivos A --//...B , e instalar, para interceptar el tráfico de algún interfaces, en alguno de los extremos: Wireshark, dsniff, Smartsnif nifsoft, Bettercap, Ethercap, Extension navegador, netspy, tcpdump, malware, etc..
 
-## 2º.- red LAN con HUB o switch basico "sin inteligencia"
+### 2º.- red LAN con HUB o switch basico "sin inteligencia"
 
 •	Instalar un HUB en el medio de una red, por su modo de funcionamiento rebotan todos los pquete en todas las MAC y paquete Ethernet, par interceptación.
 
@@ -18,7 +18,7 @@ https://github.com/hackingyseguridad/netspy/blob/master/LEEME.md
 
 •	Modificar MAC address de un PC y suplantar la de otro dispositivo objetivo, para escuchar el trafico 
 
-## 3º.- En una red LAN con conmutadores Switch inteligente configurable :
+### 3º.- En una red LAN con conmutadores Switch inteligente configurable :
 
 •	Configurar port mirroning en el switch para que una copia de todo el trafico se encamine a una sola ethernet del switch, donde hay un PC en modo promiscuo con Wirehark, netspy, etc.. capturando
 
@@ -26,7 +26,7 @@ https://github.com/hackingyseguridad/netspy/blob/master/LEEME.md
 
 •	En un PC conectado instala un Proxy trasparente. Usa ARP Spoofing, suplantación de MAC, ¡para encaminar y poder ver e interceptar el trafico de otros dispositivos!
 
-## 4º.- 6.	Posibilidad de añadir e instalar dispositivos HW:  pasarelas, FW , routers, swithes, etc.. equipos en medio de las redes para interceptación: HUBS, switches port mirronig, proxyes, TAB ..,,etc..
+### 4º.- 6.	Posibilidad de añadir e instalar dispositivos HW:  pasarelas, FW , routers, swithes, etc.. equipos en medio de las redes para interceptación: HUBS, switches port mirronig, proxyes, TAB ..,,etc..
 
 <img style="float:left" alt="Escenarios interceptacion" src="https://github.com/hackingyseguridad/netspy/blob/master/MiTM.png">
 
@@ -34,11 +34,11 @@ https://github.com/hackingyseguridad/netspy/blob/master/LEEME.md
 
 <img style="float:left" alt="netspy logo" src="https://github.com/hackingyseguridad/netspy/blob/master/netspy.png">
 
-# netspy
+### netspy
 
-## 1.- Descubre elementos de red 2.- Captura y muestra en pantalla el trafico.
+### 1.- Descubre elementos de red 2.- Captura y muestra en pantalla el trafico.
 
-## Instalacion:
+### Instalacion:
 
 apt-get install bettercap
 
@@ -50,7 +50,7 @@ cd netspy
 
 chmod 777 netspy
 
-## Uso.:
+### Uso.:
 
 sh netspy
 
@@ -60,7 +60,7 @@ netdiscover
 
 IMPORTANTE: Para salir del modo de descubrimiento 'net probe on' y empezar a esnifar teclea 'exit'.
 
-## Bettercap v2.9
+### Bettercap v2.9
 
 Escanear toda la Red:
 
@@ -120,7 +120,7 @@ Cómo detectar un ataque de ARP Spoofing!
 •	Segmentación de redes: Divide tu red en segmentos más pequeños para limitar el impacto de un posible ataque. • Actualizaciones de software: Mantén todos tus dispositivos actualizados con los últimos parches de seguridad.  Implementar medidas de seguridad como el uso de VPNs, conexiones HTTPS, y mantener tu infraestructura de red actualizada también puede ayudar a prevenir estos ataques
 
 
+#
+http://www.hackingyseguridad.com/
+#
 
-
-
-## http://www.hackingyseguridad.com
